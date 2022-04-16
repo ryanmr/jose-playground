@@ -1,0 +1,21 @@
+{
+    "jsc": {
+        
+      "target": "es2016",
+      "parser": {
+        "syntax": "typescript",
+        "tsx": false,
+        "decorators": false,
+        "dynamicImport": false
+      }
+    },
+    "module": {
+        "type": "commonjs",
+    
+        // These are defaults.
+        "strict": false,
+        "strictMode": true,
+        "lazy": false,
+        "noInterop": false
+      }
+  }
